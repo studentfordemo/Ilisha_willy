@@ -3,7 +3,7 @@ import { Text, View, StyleSheet, TouchableOpacity, Image, TextInput, Alert } fro
 import * as Permissions from "expo-permissions"
 import { BarCodeScanner } from "expo-barcode-scanner"
 import firebase from "firebase"
-import db from "../Config"
+import db from "../config"
 
 export default class TransactionScreen extends React.Component {
   constructor(){
